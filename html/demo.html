@@ -10,29 +10,16 @@
 </head>
 <body>
 	<section id="container">
+		<!-- 被覆盖在下层的图片 -->
 		<img class="img-blow" src="../image/female-cover.png" alt="img-blow">
+		<!-- 覆盖在顶层的图片 -->
 		<div id="img-cover">
 			<img id="img-self" src="../image/male-cover.png" alt="img-cover">
-<!-- 			<div id="img-self">
-				<span>kllll</span>
-			</div> -->
 		</div>
 	</section>
 	<button id="reset">reset</button>
 	<script src="../scripts/spread.js"></script>
 	<script>
-	// var spread = new Spread({
-	// 	'imgWidth': 8,
-	// 	'imgRatio': 550/306,
-	// 	'cycleFinalWidth': 15,
-	// 	'containerTop': 0,
-	// 	'containerLeft': 1,
-	// 	'time': 1,
-	// 	'cover': 'img-cover',
-	// 	'below': 'img-self',
-	// 	'container': 'container',
-	// 	'reset': 'reset'
-	// });		
 	var spread = new Spread({
 		// 覆盖在下层图片的宽度，单位：rem
 		'imgWidth': 8,
