@@ -1,0 +1,87 @@
+#container {
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+  right: 0;
+  margin: auto;
+  width: 8rem;
+  height: 4.45090909rem;
+  overflow: hidden;
+}
+#container .img-blow {
+  position: absolute;
+  width: 8rem;
+  height: 4.45090909rem;
+}
+#container #img-cover {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+  left: 50%;
+  border-radius: 100rem;
+  -webkit-radius: 100rem;
+  overflow: hidden;
+  z-index: 5;
+}
+#container #img-self {
+  visibility: hidden;
+  position: absolute;
+  width: 8rem;
+  height: 4.45090909rem;
+}
+#reset {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  margin-top: 1rem;
+}
+@keyframes divspread {
+  0% {
+    width: 0;
+    height: 0;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+  }
+  100% {
+    width: 20rem;
+    height: 20rem;
+    margin-top: -3.95090909rem;
+    margin-left: -10rem;
+  }
+}
+@-webkit-keyframes divspread {
+  0% {
+    width: 0;
+    height: 0;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+  }
+  100% {
+    width: 20rem;
+    height: 20rem;
+    margin-top: -3.95090909rem;
+    margin-left: -10rem;
+  }
+}
+@keyframes imgspread {
+  0% {
+    margin-top: -0.5rem;
+    margin-left: -4rem;
+  }
+  100% {
+    margin-top: 3.95090909rem;
+    margin-left: 6rem;
+  }
+}
+@-webkit-keyframes imgspread {
+  0% {
+    margin-top: -0.5rem;
+    margin-left: -4rem;
+  }
+  100% {
+    margin-top: 3.95090909rem;
+    margin-left: 6rem;
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<script src="../scripts/flexible.js"></script>
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/demo.css">
+	<title>原点扩散特效demo</title>
+</head>
+<body>
+	<section id="container">
+		<img class="img-blow" src="../image/female-cover.png" alt="img-blow">
+		<div id="img-cover">
+			<img id="img-self" src="../image/male-cover.png" alt="img-cover">
+<!-- 			<div id="img-self">
+				<span>kllll</span>
+			</div> -->
+		</div>
+	</section>
+	<button id="reset">reset</button>
+	<script src="../scripts/spread.js"></script>
+	<script>
+	// var spread = new Spread({
+	// 	'imgWidth': 8,
+	// 	'imgRatio': 550/306,
+	// 	'cycleFinalWidth': 15,
+	// 	'containerTop': 0,
+	// 	'containerLeft': 1,
+	// 	'time': 1,
+	// 	'cover': 'img-cover',
+	// 	'below': 'img-self',
+	// 	'container': 'container',
+	// 	'reset': 'reset'
+	// });		
+	var spread = new Spread({
+		// 覆盖在下层图片的宽度，单位：rem
+		'imgWidth': 8,
+		// 覆盖在下层图片的长宽比
+		'imgRatio': 550/306,
+		// 圆覆盖层的最终transform宽度，单位：rem
+		'cycleFinalWidth': 15,
+		// 最外层container的top（or margin-top）值，单位：rem
+		'containerTop': 0,
+		// 最外层container的left（or margin-left）值，单位：rem
+		'containerLeft': 1,
+		// transition持续时间，单位：s
+		'time': 1,
+		// 圆覆盖层div的id
+		'cover': 'img-cover',
+		// 覆盖在下层图片的id
+		'below': 'img-self',
+		// 最外层元素id
+		'container': 'container',
+		// 收缩事件触发按钮id
+		'reset': 'reset'
+	});		
+	spread.Run();
+	</script>
+</body>
+</html>
