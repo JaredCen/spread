@@ -2,10 +2,7 @@
 
 >基于移动设备的原点扩散交互特效
 
-**插件只针对移动设备，因此demo需要在chrome开发者工具的device toolbar下调试**
-
--[Website](http://1.junreycen.applinzi.com/spread-effects/html/demo.html)
-
+**插件只针对移动设备，因此[demo](http://1.junreycen.applinzi.com/spread-effects/html/demo.html)需要在chrome开发者工具的device toolbar下调试**
 
 
 ###引用文件目录
