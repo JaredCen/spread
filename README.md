@@ -96,6 +96,3 @@ less:
 - Opera (latest)
 - Edge (latest)
 - Internet Explorer 8+
-
-### License
-[MIT](http://opensource.org/licenses/MIT) © [JunreyCen](http://junreycen.github.io/)
